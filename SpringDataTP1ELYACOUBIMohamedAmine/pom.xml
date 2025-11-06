@@ -11,7 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>SpringDataTP1ELYACOUBIMohamedAmine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringDataTP1ELYACOUBIMohamedAmine</name>
+    <packaging>pom</packaging>
+    <name>SpringDataTP1ELYACOUBIMohamedAmine</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,12 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>FeignClient</module>
+        <module>RestTemplate</module>
+        <module>WebClient</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
